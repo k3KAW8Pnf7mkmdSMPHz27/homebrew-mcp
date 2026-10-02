@@ -1,9 +1,5 @@
 name: CI
 
-# Every pull request gets the formula audited, built from source at its pinned
-# revision, and tested. The ruleset on main requires this job, which is what
-# lets bump-tap.yml's PRs auto-merge safely.
-
 on:
   pull_request:
   workflow_dispatch:
