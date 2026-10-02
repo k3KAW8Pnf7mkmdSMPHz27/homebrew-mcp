@@ -7,7 +7,7 @@ class EventkitMcpServer < Formula
       revision: "50f212f7397ecdfb1f8b2a51b852dc987a7aa0ab"
   license "AGPL-3.0-or-later"
 
-  depends_on xcode: ["16.0", :build]
+  depends_on xcode: ["26.0", :build]
   depends_on :macos
 
   def install
