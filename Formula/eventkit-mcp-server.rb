@@ -2,8 +2,8 @@ class EventkitMcpServer < Formula
   desc "MCP server exposing Apple Reminders via EventKit"
   homepage "https://github.com/k3KAW8Pnf7mkmdSMPHz27/EventKitMCP"
   url "https://github.com/k3KAW8Pnf7mkmdSMPHz27/EventKitMCP.git",
-      using: :git,
-      tag: "v2.0.1",
+      using:    :git,
+      tag:      "v2.0.1",
       revision: "50f212f7397ecdfb1f8b2a51b852dc987a7aa0ab"
   license "AGPL-3.0-or-later"
 
@@ -21,7 +21,7 @@ class EventkitMcpServer < Formula
   end
 
   test do
-    assert_match "eventkit-mcp-server", shell_output("#{bin}/eventkit-mcp-server --help", 0)
+    assert_match "eventkit-mcp-server", shell_output("#{bin}/eventkit-mcp-server --help")
     assert_equal version.to_s, shell_output("#{bin}/eventkit-mcp-server --version").strip
   end
 end
