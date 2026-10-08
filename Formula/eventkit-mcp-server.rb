@@ -3,8 +3,8 @@ class EventkitMcpServer < Formula
   homepage "https://github.com/k3KAW8Pnf7mkmdSMPHz27/EventKitMCP"
   url "https://github.com/k3KAW8Pnf7mkmdSMPHz27/EventKitMCP.git",
       using:    :git,
-      tag:      "v3.0.0",
-      revision: "d84e9dad4d4edb18b2c90e1a890f4022e9a3af95"
+      tag:      "v3.1.0",
+      revision: "6bc6ce100fe9c22a1a99f2b9ad8844f46be19c15"
   license "AGPL-3.0-or-later"
 
   depends_on xcode: ["26.0", :build]
